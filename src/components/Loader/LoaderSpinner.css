@@ -1,0 +1,38 @@
+.loader-container {
+  padding-top: 140px;
+  min-height: 250px;
+  width: 40%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.653);
+  box-shadow: 0 0 20px black;
+  position: relative;
+}
+.loader-container p {
+  margin: 0px auto;
+  font-size: 20px;
+  width: fit-content;
+}
+.loader {
+  position: absolute;
+      top: 35%;
+      left: 45%;
+}
+@media all and (max-width:866px) {
+  .loader {
+      left: 43% !important;
+  }
+}
+@media all and (max-width: 754px) {
+  .loader {
+      left: 40% !important;
+  }
+}
+
+@media all and (max-width:576px) {
+  .loader-container p {
+    font-size: 16px;
+  }
+}
+
+
+ 

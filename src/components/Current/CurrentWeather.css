@@ -1,0 +1,93 @@
+.current-container .localisation {
+    font-size: 24px;
+}
+.current-container .temperature {
+    font-size: 64px;
+}
+.current-container .descrip {
+    margin-top: -24px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+@media all and (max-width:768px) {
+    .current-container .parameter-container {
+        margin-left: 8px !important;
+     }
+    .current-container .localisation {
+        font-size: 20px;
+    }
+    .current-container .temperature {
+        font-size: 48px;
+    }
+    .current-container .descrip {
+      font-size: 16px;
+    }
+}
+@media all and (max-width:575px) {
+    .current-container .weather-icon {
+        position: absolute;
+        top: 0;
+        right: 81px;
+        width: 20%;
+    }
+    .current-container .descrip {
+        margin-top: -32px;
+    }
+}
+
+@media all and (max-width:574px) {
+    .current-container .flag-container {
+        /*display: none;*/
+        width: 50%;
+        position: absolute;
+        bottom: 20%;
+        right: 5px;
+    }
+    .current-container .flag-container img {
+        height: 100%;
+    }
+}
+@media all and (max-width:430px) {
+    .current-container .flag-container {
+        display: none;
+    }
+}
+@media all and (max-width:315px) {
+    .current-container .weather-icon {
+       position:  relative !important;
+        top: 0;
+        right: 0;
+
+    }
+}
+
+.parameter-details {
+    display: inline-block;
+    margin-top: 0;
+    height: 30px;
+    margin-left: 5px;
+}
+.parameter-details p {
+    margin-bottom: -5px;
+}
+.parameter-details p.param {
+    line-height: 16px;
+    margin-top: 6px;
+}
+/*i.parameter-icon {
+    font-size: 32px;
+    color: blue;
+}*/
+.parameter-container i {
+    font-size: 32px;
+}
+.parameter-container i.bi-thermometer-half {
+  color: rgb(224, 167, 34);
+}
+.parameter-container i.bi-droplet-half {
+    color: rgb(35, 35, 210);
+}
+.parameter-container i.bi-wind {
+    color: rgb(101, 101, 101);
+}

@@ -1,0 +1,17 @@
+.search-header img {
+    border-radius: 12px;
+    box-shadow: 0 0 15px gray;
+}
+.search-header form {
+    width: 60% !important;
+    margin: 0 auto;
+}
+.search-header form input, .search-header form i {
+    font-size: 18px;
+}
+@media all and (max-width: 576px) {
+    .search-header button {
+        float: right;
+        margin-top: 8px;
+    }
+}
